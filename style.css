@@ -3,12 +3,12 @@ body{
     margin: 0px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 p{
     color: dimgray;
     margin-bottom: 35px;
-    font-size: 25px;
+    
 }
 .name-highlight{
     color: hotpink;
@@ -31,14 +31,13 @@ p{
     background-size: cover;
 }
 section{
-    height: 1200px;
+    height: 750px;
     padding-bottom: 100px;
 }
 .link{
     text-decoration: none;
-    background-image: linear-gradient(45deg,hotpink,hotpink);
-    width: 30px;
-    padding: 17px 30px;
+    background-image: linear-gradient(45deg,rgb(231, 165, 111),tomato);
+    padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 500;
@@ -74,7 +73,7 @@ section{
     background-size: cover;
 }
 .footer-l{
-    background-image: linear-gradient(45deg,hotpink,hotpink);
+    background-image: linear-gradient(45deg,rgb(214, 122, 168),hotpink);
     background-position: center;
     margin-left: 30%;
     width: 40%;
@@ -88,7 +87,7 @@ section{
     text-decoration: none;
     color: whitesmoke;
     margin-left: 150px;
-    font-size: 35px;
+    font-size: 20px;
 }
 #alignment-and-color{
     text-align: center;
@@ -103,15 +102,15 @@ section{
     background:linear-gradient(rgba(84, 124, 161, 0.9),rgba(4, 238, 195, 0.9)), url(image/skill.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 2%;
-    padding-left:2% ;
+    padding-top: 1%;
+    padding-left:1% ;
 }
 .skill-upper-div{
     background-color: white;
     width:50%;
     border-radius:50px;}
 .skill-lower-div{
-    background-image:linear-gradient(rgb(118, 7, 245),rgb(103, 14, 145));
+    background-image:linear-gradient(45deg,rgb(118, 7, 245),rgb(103, 14, 145));
     text-align:center;
     border-radius:50px;
     color:white;
@@ -137,17 +136,22 @@ section{
 #pygame-skill{
     width: 30%;
 }
-article{
-    margin-top: 5%;
+.find-me{
+    margin-top: 1%;
+    padding-top: 1%;
+    width: 45%;
+    float: left;
 }
 .find-me p{
-    text-align: center;
+    text-align: right;
     color:black;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 14px;
+    font-weight: 500;
 }
 .find-me img{
     width: 55px;
     height: 55px;
+    margin-bottom: 0px;
+    
     
 }
